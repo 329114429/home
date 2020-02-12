@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b3ec13-2d99-4827-8828-5875f90613db" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/sum_dice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sum_dice/dice_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sum_dice/die_analysis.py" afterDir="false" />
+    <list default="true" id="50b3ec13-2d99-4827-8828-5875f90613db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/down_bilibili/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/down_bilibili/down_movie.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,16 +38,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sum_dice/die_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="140">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lottery_ball/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/down_bilibili/down_movie.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -81,6 +90,7 @@
         <option value="$PROJECT_DIR$/sum_dice/dice_sum.py" />
         <option value="$PROJECT_DIR$/sum_dice/die_analysis.py" />
         <option value="$PROJECT_DIR$/double_ball/analyze_ball.py" />
+        <option value="$PROJECT_DIR$/down_bilibili/down_movie.py" />
       </list>
     </option>
   </component>
@@ -105,6 +115,11 @@
             <path>
               <item name="home_exam" type="b2602c69:ProjectViewProjectNode" />
               <item name="home_exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="home_exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="home_exam" type="462c0819:PsiDirectoryNode" />
+              <item name="down_bilibili" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -271,7 +286,7 @@
       <updated>1579923375317</updated>
       <workItem from="1579923376619" duration="33986000" />
       <workItem from="1580658514023" duration="10064000" />
-      <workItem from="1581424562795" duration="916000" />
+      <workItem from="1581424562795" duration="1782000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1580702430934</created>
@@ -280,14 +295,22 @@
       <option name="project" value="LOCAL" />
       <updated>1580702430935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交">
+      <created>1581437682138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581437682138</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44966000" />
+    <option name="totallyTimeSpent" value="45832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1021" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20127796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -518,13 +541,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sum_dice/die_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lottery_ball/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/down_bilibili/down_movie.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
