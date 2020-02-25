@@ -38,7 +38,3 @@ class Card():
         #
         # total_time = repay_date_timeStamp - lend_data_timeStamp
         # print("还钱时间 - 借钱时间:", total_time)
-
-
-if __name__ == '__main__':
-    ICBG = Card(54000, 25000, 0.0005)
