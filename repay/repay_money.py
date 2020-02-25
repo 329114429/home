@@ -24,19 +24,24 @@ class Credit_card():
         total_repay_money = self.repay_money + self.lend_money * self.rate
         return total_repay_money
 
+    # 借款日期
+    def lend_date(self, lend_str_day):
+        year, mon, day = lend_str_day.split("-")
+        self.lenddate = datetime(int(year), int(mon), int(day))
+
+        # 借钱 转为时间戳
+        lend_timeArray = time.strptime(lend_str_day, "%Y-%m-%d")    # 转为时间数组
+        repay_timeStamp = int(time.mktime(lend_timeArray))   # 转为时间戳
+
+        return self.lenddate, repay_timeStamp
+
     # 还款日期
-    def repay_date(self, repay_str_date):
-        year, mon, day = repay_str_date.split("-")
+    def repay_date(self, repay_str_day):
+        year, mon, day = repay_str_day.split("-")
         self.repaydate = datetime(int(year), int(mon), int(day))
 
         # 转为时间戳
-        timeArray = time.strptime(repay_str_date, "%Y-%m-%d")
-        timeStamp = int(time.mktime(timeArray))
+        repay_timeArray = time.strptime(repay_str_day, "%Y-%m-%d")
+        repay_timeStamp = int(time.mktime(repay_timeArray))
 
-        return self.repaydate, timeStamp
-
-    # 借款日期
-    def lend_date(self, lend_str_date):
-        year, mon, day = lend_str_date.split("-")
-        self.lenddate = datetime(int(year), int(mon), int(day))
-        return self.lenddate
+        return self.repaydate, repay_timeStamp
