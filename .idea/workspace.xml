@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b3ec13-2d99-4827-8828-5875f90613db" name="Default Changelist" comment="card">
+    <list default="true" id="50b3ec13-2d99-4827-8828-5875f90613db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repay/ICBG_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/repay/card.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repay/credit_card.py" beforeDir="false" afterPath="$PROJECT_DIR$/repay/credit_card.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repay/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/repay/card.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
     <SUITE FILE_PATH="coverage/home_exam$die_analysis.coverage" NAME="die_analysis Coverage Results" MODIFIED="1580832917938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sum_dice" />
     <SUITE FILE_PATH="coverage/home_exam$bilibili_video_download_GUI.coverage" NAME="bilibili_video_download-GUI Coverage Results" MODIFIED="1581506652237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bilibili_video_download" />
     <SUITE FILE_PATH="coverage/double_ball$analyze_ball.coverage" NAME="analyze_ball Coverage Results" MODIFIED="1580462504667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/double_ball" />
-    <SUITE FILE_PATH="coverage/home_exam$ICBG_card.coverage" NAME="ICBG_card Coverage Results" MODIFIED="1582681940071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repay" />
+    <SUITE FILE_PATH="coverage/home_exam$ICBG_card.coverage" NAME="ICBG_card Coverage Results" MODIFIED="1582704891705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/repay" />
     <SUITE FILE_PATH="coverage/double_ball$analyze_date_blue.coverage" NAME="analyze_date_blue Coverage Results" MODIFIED="1580374914637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/home_exam$analyze_ball.coverage" NAME="analyze_ball Coverage Results" MODIFIED="1581306143484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/double_ball" />
     <SUITE FILE_PATH="coverage/double_ball$lucky_double_ball.coverage" NAME="lucky_double_ball Coverage Results" MODIFIED="1580297059215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repay/repay_money.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="390">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -45,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repay/credit_card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="80">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -57,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repay/card.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="100">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -303,7 +302,7 @@
       <workItem from="1580658514023" duration="10064000" />
       <workItem from="1581424562795" duration="15167000" />
       <workItem from="1582432882522" duration="107000" />
-      <workItem from="1582448016929" duration="18132000" />
+      <workItem from="1582448016929" duration="19289000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1580702430934</created>
@@ -410,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582617978342</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="时间戳相减再转换成天数">
+      <created>1582682005208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582682005208</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77456000" />
+    <option name="totallyTimeSpent" value="78613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1021" extended-state="6" />
@@ -494,7 +500,8 @@
     <MESSAGE value="test chain" />
     <MESSAGE value="还钱时间戳" />
     <MESSAGE value="card" />
-    <option name="LAST_COMMIT_MESSAGE" value="card" />
+    <MESSAGE value="时间戳相减再转换成天数" />
+    <option name="LAST_COMMIT_MESSAGE" value="时间戳相减再转换成天数" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ssq.txt" />
@@ -686,15 +693,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repay/card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repay/credit_card.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        <state relative-caret-position="80">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -703,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repay/repay_money.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        <state relative-caret-position="390">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
