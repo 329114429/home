@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50b3ec13-2d99-4827-8828-5875f90613db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repay/card.py" beforeDir="false" afterPath="$PROJECT_DIR$/repay/card.py" afterDir="false" />
-    </list>
+    <list default="true" id="50b3ec13-2d99-4827-8828-5875f90613db" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +299,7 @@
       <workItem from="1580658514023" duration="10064000" />
       <workItem from="1581424562795" duration="15167000" />
       <workItem from="1582432882522" duration="107000" />
-      <workItem from="1582448016929" duration="19289000" />
+      <workItem from="1582448016929" duration="19852000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1580702430934</created>
@@ -416,15 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582682005208</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="时间戳相减再转换成天数">
+      <created>1582706048662</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1582706048662</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78613000" />
+    <option name="totallyTimeSpent" value="79176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1021" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20553781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
