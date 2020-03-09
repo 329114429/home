@@ -1,15 +1,15 @@
 import socket
 
-EOL1 = b'n\n'
-EOL2 = b'n\n'
+EOL1 = b'\n\n'
+EOL2 = b'\n\r\n'
 
 body = '''Hello, world! <h1>from the5fire</h1>'''
 
 response_params = [
     'HTTP/1.0 200 OK',
-    'Date: Sun, 08 Mar 2020 01:01:01 GMT',
-    'Content-Type : text/html; charset=utf-8',
-    'Content-Length : {}\r\n'.format(len(body.encode())),
+    'date: Sun, 08 Mar 2020 09:33:15 GMT',
+    'content-type: text/html; charset=utf-8',
+    'content-length : {}\r\n'.format(len(body.encode())),
     body,
 ]
 
@@ -17,7 +17,10 @@ response = '\r\n'.join(response_params)
 
 
 # 连接
-def handle_connection(conn, addr):
+def handle_connection(conn, address):
+    print("oh, new conn", conn, address)
+    import time
+    time.sleep(5)
     request = b""
     while EOL1 not in request and EOL2 not in request:
         request += conn.recv(1024)
@@ -35,7 +38,7 @@ def main():
     server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     server_socket.bind(('127.0.0.1', 8000))
     server_socket.listen(5)  # 连接最大的排队数量
-    print('https://127.0.0.1:8000')
+    print('http://127.0.0.1:8000')
 
     try:
         while True:
